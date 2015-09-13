@@ -4,9 +4,9 @@
     Author     : ENOW
 --%>
 
-<%@page import="Packages.connection"%>
+<%@page import="Epack.connection"%>
 <%@page import="java.util.List"%>
-<%@page import="Packages.GetAllData"%>
+<%@page import="Epack.GetAllData"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -109,9 +109,9 @@
                         <li>
                             <span><a href="itemview.jsp"><img id="img1" name="ids" src="../images/one.jpg"  alt="one"></a></span><br/>                          
                             <span class="ref"><a href="#" ><%=get.getModel()%></a></span><br/>
-                            <form  method="post" action="BidNow.jsp">                           
-                                <span><%=get.getMinPrice()%></span><br/><span><a href="BidNow.jsp"  name="user">
-                                   <input type="hidden" name="itmId" value="<%=get.getAcId() %>"/>
+                            <form  method="post" action="Datechecker.jsp">                           
+                                    <span><%=get.getMinPrice()%></span><br/><span><a href="BidNow.jsp"  name="user">
+                                    <input type="hidden" name="itmId" value="<%=get.getAcId() %>"/>
                                     <input type="hidden" name="itmname" value="<%=get.getItem()%>"/>
                                     <input type="submit"  id="bid" value="Bid Now"/>                           
                             </form>

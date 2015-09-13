@@ -3,13 +3,13 @@
     Created on : 09-Aug-2015, 17:33:17
     Author     : ENOW
 --%>
-<%@page import="Packages.SearchVars"%>
-<%@page import="Packages.MainSearch"%>
-<%@page import="Packages.login"%>
-<%@page import="Packages.biddata"%>
-<%@page import="Packages.Views"%>
+<%@page import="Epack.SearchVars"%>
+<%@page import="Epack.MainSearch"%>
+<%@page import="Epack.login"%>
+<%@page import="Epack.biddata"%>
+<%@page import="Epack.Views"%>
 <%@page import="java.util.List"%>
-<%@page import="Packages.connection"%>
+<%@page import="Epack.connection"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

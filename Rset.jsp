@@ -4,8 +4,8 @@
     Author     : ENOW
 --%>
 
-<%@page import="Packages.resetPassword"%>
-<%@page import="Packages.login"%>
+<%@page import="Epack.resetPassword"%>
+<%@page import="Epack.login"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

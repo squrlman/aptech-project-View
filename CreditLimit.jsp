@@ -4,10 +4,10 @@
     Author     : ENOW
 --%>
 
-<%@page import="Packages.SearchVars"%>
+<%@page import="Epack.SearchVars"%>
 <%@page import="java.util.List"%>
-<%@page import="Packages.connection"%>
-<%@page import="Packages.Views"%>
+<%@page import="Epack.connection"%>
+<%@page import="Epack.Views"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

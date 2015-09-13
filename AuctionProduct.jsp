@@ -155,15 +155,15 @@
                                 <tr>
 
                                     <td id="field">Item Name :</td>
-                                    <td><input type="text" class="text" name="Itemname" placeholder="Item name" required="required" /></td>
+                                    <td><input type="text" class="text" name="Itemname" placeholder="Item name"/></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Model: </td>
-                                    <td><input type="text" class="username" required="required" name="model" placeholder="model" /></td>
+                                    <td><input type="text" class="username"  name="model" placeholder="model" /></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Description:</td>
-                                    <td><textarea class="username" required="required" name="Desc" placeholder="description" ></textarea></td>
+                                    <td><textarea class="username"  name="Desc" placeholder="description" ></textarea></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Image:</td>
@@ -171,23 +171,23 @@
                                 </tr>
                                 <tr>
                                     <td id="field">Minimum Price:</td>
-                                    <td><input type="text" class="username" required="required" name="MinPrice" placeholder="min price" /></td>
+                                    <td><input type="text" class="username" name="MinPrice" placeholder="min price" /></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Reserved Price:</td>
-                                    <td><input type="text" class="username" required="required" name="ResPrice" placeholder="res price" /></td>
+                                    <td><input type="text" class="username"  name="ResPrice" placeholder="res price" /></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Auction Start Time :</td>
-                                    <td><input type="text" class="username" required="required" name="start" placeholder="2015-10-10" /></td>
+                                    <td><input type="text" class="username"  name="start" placeholder="2015-10-10" /></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Duration :</td>
-                                    <td><input type="text" class="username" required="required" name="Duration" placeholder="2days" /></td>
+                                    <td><input type="text" class="username"  name="Duration" placeholder="2days" /></td>
                                 </tr>
                                 <tr>
                                     <td id="field">Commission Rate :</td>
-                                    <td><input type="text" class="username" required="required" name="ComRate" placeholder="20%" /></td>
+                                    <td><input type="text" class="username" name="ComRate" placeholder="20%" /></td>
                                 </tr>
                                 
                                 <tr>

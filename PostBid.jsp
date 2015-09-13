@@ -4,8 +4,9 @@
     Author     : ENOW
 --%>
 
-<%@page import="Packages.Bidcheck"%>
-<%@page import="Packages.biddata"%>
+<%@page import="Epack.DateCheck"%>
+<%@page import="Epack.Bidcheck"%>
+<%@page import="Epack.biddata"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -15,6 +16,8 @@
     </head>
     <body>
         <%
+                  
+            
             biddata bdta = new biddata();
             //get bid amt frm user
 
@@ -60,7 +63,9 @@
                     //if amt <0.0 create account
                     response.sendRedirect("SignupUser.jsp");
                 }
+            
             }
+            
         %>   
     </body>
 </html>

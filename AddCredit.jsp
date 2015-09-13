@@ -4,10 +4,10 @@
     Author     : ENOW
 --%>
 
-<%@page import="Packages.login"%>
+<%@page import="Epack.login"%>
 <%@page import="javax.swing.JOptionPane"%>
-<%@page import="Packages.SearchVars"%>
-<%@page import="Packages.Bidcheck"%>
+<%@page import="Epack.SearchVars"%>
+<%@page import="Epack.Bidcheck"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

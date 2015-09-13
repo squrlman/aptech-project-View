@@ -5,12 +5,12 @@
 --%>
 
 
-<%@page import="Packages.GetValuse"%>
+<%@page import="Epack.GetValuse"%>
 <%@page import="java.sql.SQLException"%>
-<%@page import="Packages.Auctions"%>
-<%@page import="Packages.login"%>
+<%@page import="Epack.Auctions"%>
+<%@page import="Epack.login"%>
 <%@page import="java.sql.Date"%>
-<%@page import="Packages.connection"%>
+<%@page import="Epack.connection"%>
 <%@page import="java.time.LocalDate"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.DriverManager"%>
